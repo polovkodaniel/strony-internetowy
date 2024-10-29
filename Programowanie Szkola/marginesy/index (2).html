@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marginesy i Padding</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    table {
+      width: 50%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    td {
+      border: 1px solid #ccc;
+      padding: 15px;
+      text-align: center;
+      font-size: 16px;
+    }
+    .padding-tabela td {
+      border: 1px solid black;
+      padding: 20px; 
+    }
+    .podwojny-margin {
+      border: 1px solid black;
+      margin: 30px 50px; 
+    }
+    .potrojny-margin {
+      border: 1px solid black;
+      margin: 40px 30px 20px; 
+    }
+    .poczworny-margin {
+      border: 1px solid black;
+      margin: 50px 40px 30px 20px; 
+    }
+    .wybrane-strony-margin {
+      border: 1px solid black;
+      margin-left: 30px;   
+      margin-right: 50px;  
+      margin-top: 20px;    
+      margin-bottom: 40px; 
+    }
+
+  </style>
+</head>
+<body>
+  <h2>Zad 1 (padding)</h2>
+  <table class="padding-tabela">
+    <tr>
+      <td>Daniel 1</td>
+      <td>Polovko  1</td>
+    </tr>
+    <tr>
+      <td>Polovko</td>
+      <td>Daniel</td>
+    </tr>
+  </table>
+  <h2>Zad 2</h2>
+  <table class="podwojny-margin">
+    <tr>
+      <td>Polovko</td>
+      <td>Daniel</td>
+    </tr>
+  </table>
+  <h2>Zad 3</h2>
+  <table class="potrojny-margin">
+    <tr>
+      <td>Daniel</td>
+      <td>Polovko</td>
+    </tr>
+  </table>
+  <h2>Zad 4</h2>
+  <table class="poczworny-margin">
+    <tr>
+      <td>Polovko</td>
+      <td>Daniel</td>
+    </tr>
+  </table>
+
+
+  <h2>Zad 5</h2>
+  <table class="wybrane-strony-margin">
+    <tr>
+      <td>Daniel</td>
+      <td>Polovko</td>
+    </tr>
+  </table>
+
+</body>
+</html>
