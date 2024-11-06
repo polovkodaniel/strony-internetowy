@@ -5,7 +5,7 @@ html, body {
     background-color: #121212;
     color: #FFFFFF;
 }
-
+/*header*/
 header {
     display: flex;
     width: 100%;
@@ -59,7 +59,7 @@ nav {
     width: 24px;
     margin-right: 8px;
 }
-
+/*header*/
 h1, h2, h3 {
     color: #FF6F61;
     text-align: center;
@@ -129,6 +129,7 @@ body {
   .content {
     padding: 20px;
   }
+  /*footer*/
    .footer {
     background-color: #333;
     color: white;
@@ -153,4 +154,5 @@ body {
   .footer-links a:hover {
     text-decoration: underline;
   }
+    /*footer*/
   
